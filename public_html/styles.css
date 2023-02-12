@@ -1,0 +1,27 @@
+body {
+    margin: 0rem;
+    font-family: "Open Sans";
+}
+section {
+    min-height: 100vh;
+    border: 5px solid red;
+}
+
+#introMain {
+    background-color: grey;
+    background-image: url("./images/ImagePlaceHolderA.png");
+    background-size: cover;
+    background-position: 100% 100%;
+}
+
+#primary-navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+    gap: 2rem;
+    margin-right: 4rem;
+    margin-left: 4rem;
+    margin-top: 2rem;
+    font-size: x-large;
+}
