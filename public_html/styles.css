@@ -9,12 +9,27 @@ section {
 
 #introMain {
     background-color: white;
-    /*background-image: url("./images/ImagePlaceHolderA.png");*/
+    background-image: url("./images/ImagePlaceHolderA.png");
     background-size: cover;
     background-position: 100% 100%;
 }
 
-#containerIntro{
-    height: 50vh!important;
-    align-content: end!important;
+#IntroPrimaryContent{
+    min-height: 60vh !important;
+    align-items: center!important;
+    display: flex!important;
+}
+
+#Resume{
+    border: 2px solid green;
+}
+
+#TechStack{
+    border: 2px solid blue;
+}
+
+@media screen and (max-width:991px){
+    #ScrollIcon{
+        display:none;
+    }
 }
