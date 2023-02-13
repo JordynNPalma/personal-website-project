@@ -16,12 +16,12 @@
     <!--  navigation-->
     <header class = "navHeader">
         <nav class="navbar navbar-expand-lg bg-transparent">
-            <div class="container-fluid mx-5 my-4">
+            <div class="container-fluid mx-md-5 mx-sm-1 my-4">
                 <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav  ms-auto fs-4">
+                    <ul class="navbar-nav ms-auto fs-4">
                         <li class="nav-item">
                             <a class="nav-link" href="#">Resume</a>
                         </li>
@@ -40,16 +40,27 @@
         </nav>
     </header>
 
-    <!--About Me & Avatar-->
-    <div id="containerIntro" class="innerContain">
-        <div id="Avatar"></div>
-        <div id="AboutMe">
-            <h1>Jordyn Palma</h1>
-            <h2>Graphic Designer. Web Developer.</h2>
-            <p>New Mexico born and raised. Currently located in the Albuquerque Metro Area.</p>
-            <p>I am a designer focused on using my graphic design, web development, and UX/UI design expertise to build branding elements for entrepreneurs and local artisans. I believe in the power of the arts and aim to use my skills to empower local creatives. I am always looking for a new challenge and have a love for learning.</p>
-            <p>I have a passion for teaching others and collaborating with my community. I teach courses on Digital Fabrication and the Adobe Creative Suite. </p>
+<!--    About Me & Avatar-->
+    <div id="containerIntro" class="container">
+        <div class="row gx-5 my-lg-5">
+            <div class="col-lg-6" id="Avatar">
+                <div class="row">
+                    <div class="col-2 align-self-end">
+                        <img class="img-fluid LinkedIn" src="./placerholder/LinkedInLogo.svg" alt="avatar placeholder icon">
+                    </div>
+                    <div class="col-10 img userImage">
+                        <img class="img-fluid" src="./placerholder/AvatarCombined.svg" alt="avatar placeholder icon">
+                    </div>
+                </div>
+            </div>
 
+            <div class="col-lg-6 align-self-end my-5" id="AboutMe">
+                <h1>Jordyn Palma</h1>
+                <h2>Graphic Designer. Web Developer.</h2>
+                <p>New Mexico born and raised. Currently located in the Albuquerque Metro Area.</p>
+                <p>I am a designer focused on using my graphic design, web development, and UX/UI design expertise to build branding elements for entrepreneurs and local artisans. I believe in the power of the arts and aim to use my skills to empower local creatives. I am always looking for a new challenge and have a love for learning.</p>
+                <p>I have a passion for teaching others and collaborating with my community. I teach courses on Digital Fabrication and the Adobe Creative Suite. </p>
+            </div>
         </div>
     </div>
 </section>
