@@ -8,7 +8,6 @@ section {
     color: #f4f4f9;
 }
 
-
 #introMain {
     background-image: url("./assets/intro-backgrounds-desktop.svg");
     background-size: cover;
@@ -24,8 +23,6 @@ section {
 #TechStack{
     border: 2px solid blue;
 }
-
-
 
 @media screen and (max-width:991px){
     #ScrollIcon{
