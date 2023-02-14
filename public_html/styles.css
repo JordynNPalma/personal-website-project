@@ -3,13 +3,14 @@ body {
     font-family: "Open Sans";
 }
 section {
-    min-height: 75vh;
+    background-color: #212C3A;
+    /*min-height: 75vh;*/
     border: 5px solid red;
+    color: #f4f4f9;
 }
 
 
 #introMain {
-    background-color: #001220;
     background-image: url("./assets/intro-backgrounds-desktop.svg");
     background-size: cover;
     background-position: 0% 0%;
