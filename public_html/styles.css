@@ -20,9 +20,9 @@ section {
     width: 7%;
 }
 
-#ScrollIcon{
-    width: 7%!important;
-}
+/*#ScrollIcon{*/
+/*    width: 7%!important;*/
+/*}*/
 
 @media screen and (max-width:991px){
     #ScrollIcon{
