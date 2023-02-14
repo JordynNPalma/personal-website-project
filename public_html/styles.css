@@ -16,12 +16,12 @@ section {
     /*min-height: 100vh;*/
 }
 
-#Resume{
-    border: 2px solid green;
+#contactIcons{
+    width: 7%;
 }
 
-#TechStack{
-    border: 2px solid blue;
+#ScrollIcon{
+    width: 7%!important;
 }
 
 @media screen and (max-width:991px){
