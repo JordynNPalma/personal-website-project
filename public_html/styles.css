@@ -7,17 +7,13 @@ section {
     border: 5px solid red;
 }
 
+
 #introMain {
-    background-color: white;
-    background-image: url("./images/ImagePlaceHolderA.png");
+    background-color: #001220;
+    background-image: url("./assets/intro-backgrounds-desktop.svg");
     background-size: cover;
     background-position: 0% 0%;
-}
-
-#IntroPrimaryContent{
-    min-height: 60vh !important;
-    align-items: center!important;
-    display: flex!important;
+    color: #f4f4f9;
 }
 
 #Resume{
@@ -28,10 +24,13 @@ section {
     border: 2px solid blue;
 }
 
+
+
 @media screen and (max-width:991px){
     #ScrollIcon{
         display:none;
     }
+
 }
 
 /*#experiencePrimary{*/

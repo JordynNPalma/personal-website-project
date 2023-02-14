@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 
-
 <body>
 
 <!--Introduction-->
@@ -61,10 +60,11 @@
                 </div>
             </div>
         </div>
+        <div class="container d-lg-flex justify-content-end my-5" id="ScrollIcon">
+            <img src="./placerholder/ScrollButton.svg" alt="">
+        </div>
     </div>
-    <div class="container d-lg-flex justify-content-end my-5" id="ScrollIcon">
-        <img src="./placerholder/ScrollButton.svg" alt="">
-    </div>
+
 </section>
 
 <!--Experience-->
@@ -112,21 +112,21 @@
     <div class="container" id="TechStack">
         <div class="row gx-2">
 
-            <div class="col-lg-4">
-                <img class="img-fluid" src="./images/ImagePlaceHolderA.png" alt="">
+            <div class="col-lg-3">
+                <img class="img-fluid" src="./assets/graphic-design-tech.svg" alt="list of icons related to graphic design">
             </div>
-            <div class="col-lg-4">
-                <img class="img-fluid" src="./images/ImagePlaceHolderA.png" alt="">
+            <div class="col-lg-3>
+                <img class="img-fluid" src="./assets/web-development-tech.svg" alt="list of icons related to graphic design">
             </div>
-            <div class="col-lg-4">
-                <img class="img-fluid" src="./images/ImagePlaceHolderA.png" alt="">
+            <div class="col-lg-3">
+                <img class="img-fluid" src="./assets/digital-fab-tech.svg" alt="list of icons related to digital fabrication">
+            </div>
+            <div class="col-lg-3">
+                <img class="img-fluid" src="./assets/project-management-tech.svg" alt="list of icons related to project management">
             </div>
         </div>
     </div>
 </section>
-
-
-
 
 <!--highlights and contact-->
 <section id="highlightsContact">
@@ -137,7 +137,7 @@
         <div class="container">
             <div class="row gx-2">
                 <div class="col-lg-4">
-\
+                    <img class="img-fluid" src="./images/ImagePlaceHolderA.png" alt="">
                 </div>
 
                 <div class="col-lg-4">
@@ -149,6 +149,28 @@
             </div>
         </div>
     </div>
+
+<!--    modal test-->
+    <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#purchaseModal">Purchase</button>
+
+    <div class="modal fade" id="purchaseModal" tabindex="-1" role="dialog" aria-labelledby="purchaseLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="purchaseLabel">Purchase</h4>
+                </div>
+                <div class="modal-body">
+                    sup?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Purchase</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
 
 <!--contact-->
