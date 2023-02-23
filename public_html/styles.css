@@ -25,10 +25,7 @@ section {
     }
 }
 
-.modal-content{
-    background: black;
-    border: 1px white solid
-}
+
 
 
 /*hover effect over project highlight modules*/
@@ -66,3 +63,7 @@ section {
     }
 }
 
+.modal-content {
+    background: black;
+    border: 1px white solid
+}
