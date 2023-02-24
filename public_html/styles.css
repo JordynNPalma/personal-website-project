@@ -4,7 +4,7 @@ body {
 }
 section {
     background-color: #212C3A;
-    border: 5px solid red;
+    /*border: 5px solid red;*/
     color: #f4f4f9;
 }
 
@@ -26,6 +26,51 @@ section {
 }
 
 
+
+.portfolio_item{
+    border: red 2px solid;
+}
+
+.portfolio_content_lightbox{
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+
+.portfolio_lightbox{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,100,.5);
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.portfolio_lightbox:target{
+    display: flex;
+}
+
+.lightbox-close {
+    position: absolute;
+    width: 2em;
+    height: 2em;
+    background: red;
+    top: -1em;
+    right: -1em;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lightbox-close::after {
+    content: "X";
+    color: white;
+
+}
 
 
 /*hover effect over project highlight modules*/
