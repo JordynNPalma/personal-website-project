@@ -4,14 +4,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Jordyn Palma Design</title>
+<!--    bootstrap style sheet-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+<!--    custom stylesheet-->
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
 <!--Introduction-->
-<section id="introMain">
+<section id="intro-main">
     <!--  navigation-->
     <header class = "navHeader">
         <nav class="navbar navbar-expand-lg bg-transparent">
@@ -37,33 +39,29 @@
     </header>
 
 <!--    About Me, Avatar, Scroll Button-->
-    <div class="container" id="IntroPrimaryContent">
-        <div id="containerIntro" class="container">
+    <div class="container" id="intro-primary-content">
+        <div class="container">
             <div class="row gx-5 my-lg-5">
-                <div class="col-lg-7" id="Avatar">
+                <div class="col-lg-7" id="avatar-and-logo">
                     <div class="row">
                         <div class="col-2 align-self-end">
-                            <a href="https://www.linkedin.com/in/jordyn-n-palma"><img class="img-fluid LinkedIn" src="assets/logos/linked-in-logo.svg" alt="avatar placeholder icon"/></a>
+                            <a href="https://www.linkedin.com/in/jordyn-n-palma"><img class="img-fluid" id="linked-in-logo" src="./assets/logos/linked-in-logo.svg" alt="linkedIn Logo"/></a>
                         </div>
-                        <div class="col-10 img userImage">
-                            <img class="img-fluid" src="./assets/avatar-main.png" alt="Illustrated avatar of Jordyn with the text hello">
+                        <div class="col-10">
+                            <img class="img-fluid" src="./assets/avatar-main.png" alt="illustrated avatar of Jordyn with the text hello">
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-5 align-self-end my-5" id="AboutMe">
+                <div class="col-lg-5 align-self-end my-5" id="about-me">
                     <h1>Jordyn Palma</h1>
-                    <h2>Designer. Web Developer.</h2>
+                    <h2 class="mb-3">Designer. Web Developer.</h2>
                     <p>New Mexico born and raised. Currently located in the Albuquerque Metro Area.</p>
                     <p>I am a designer focused on using my graphic design, web development, and UX/UI design expertise to build branding elements for entrepreneurs and local artisans. I believe in the power of the arts and aim to use my skills to empower local creatives. I am always looking for a new challenge and have a love for learning.</p>
                     <p>I have a passion for teaching others and collaborating with my community. I teach courses on Digital Fabrication and the Adobe Creative Suite. </p>
                 </div>
             </div>
-            <div class="container d-flex justify-content-end my-5">
-                <a href="#experience"><img class="img-fluid" id="ScrollIcon" src="./assets/scroll-icon.svg" alt=""></a>
-            </div>
         </div>
-
     </div>
 
 </section>
@@ -72,57 +70,56 @@
 <section id="experience">
 
 <!--    Resume-->
-    <div class="container my-5 " id="experiencePrimary">
+    <div class="container my-5">
 <!--        digital resume-->
-        <div class="container my-5 px-0" id="Resume">
-            <h2>Experience</h2>
+        <div class="container my-5 px-0">
+            <h3>Experience</h3>
             <div class="row gx-4 my-5">
                 <div class="col-lg-3">
-                    <h3>Freelance Designer</h3>
-                    <h4>2018 - Current</h4>
+                    <h4>Freelance Designer</h4>
+                    <h5>2018 - Current</h5>
                     <p>Albuquerque, NM</p>
                 </div>
                 <div class="col-lg-3">
-                    <h3 class="">Illustrator and Digital Fabrication Instructor / Technician</h3>
-                    <h4>2019 - Current</h4>
-                    <p><strong>FUSE Makerspace</strong>| Albuquerque, NM</p>
+                    <h4 class="">Illustrator and Digital Fabrication Instructor / Technician</h4>
+                    <h5>2019 - Current</h5>
+                    <p>FUSE Makerspace | Albuquerque, NM</p>
                 </div>
                 <div class="col-lg-3">
-                    <h3>Communications Coordinator</h3>
-                    <h4>2022</h4>
-                    <p><strong>Keshet Dance & Center for the Arts</strong> | Albuquerque, NM</p>
+                    <h4>Communications Coordinator</h4>
+                    <h5>2022</h5>
+                    <p>Keshet Dance & Center for the Arts | Albuquerque, NM</p>
                 </div>
                 <div class="col-lg-3">
-                    <h3>Project Manager and Environmental Graphic Designer</h3>
-                    <h4>2017 - 2019</h4>
+                    <h4>Project Manager and Environmental Graphic Designer</h4>
+                    <h5>2017 - 2019</h5>
                     <p><strong>Century Sign Builders</strong> | Albuquerque, NM</p>
                 </div>
             </div>
 <!--            download resume button-->
             <div class="d-flex justify-content-center">
-            <a href="./assets/Jordyn-Resume.pdf" download="JordynResume2022.pdf">
-                <button type="button" class="btn btn-dark">Download PDF Resume</button>
+            <a href="./assets/jordyn-resume.pdf" download="jordyn-resume.pdf">
+                <button type="button" id="resume-button" class="btn">Download PDF Resume</button>
             </a>
             </div>
         </div>
-
     </div>
 
 
 <!--    Tech Stack-->
-    <div class="container" id="TechStack">
+    <div class="container my-5" id="TechStack">
         <div class="row gx-lg-3 gy-3">
             <div class="col-lg-3 col-6">
-                <img class="img-fluid border rounded-3" src="assets/tech%20stack/graphic-design-tech.png" alt="list of icons related to graphic design">
+                <img class="img-fluid border-0 rounded-3" src="./assets/tech-stack/graphic-design-tech.png" alt="list of icons related to graphic design. Contains Adobe Illustrator, Adobe Indesign, Adobe Photoshop, Adobe Lightroom, Adobe Rush, Canva, Procreate.">
             </div>
             <div class="col-lg-3 col-6">
-                <img class="img-fluid border rounded-3" src="assets/tech%20stack/web-development-tech.png" alt="list of icons related to web development">
+                <img class="img-fluid border-0 rounded-3" src="./assets/tech-stack/web-development-tech-2.png" alt="list of icons related to web development. Contains Wordpres, Figma, Divi, Elementor, Bootstrap, CSS, HTML, Javascript. ">
             </div>
             <div class="col-lg-3 col-6">
-                <img class="img-fluid border rounded-3" src="assets/tech%20stack/digital-fab-tech.png" alt="list of icons related to digital fabrication">
+                <img class="img-fluid border rounded-3" src="assets/tech-stack/digital-fab-tech.png" alt="list of icons related to digital fabrication. Contains Cura, Ultimaker, FormLabs, Lightburn, Roland.">
             </div>
             <div class="col-lg-3 col-6">
-                <img class="img-fluid border rounded-3" src="assets/tech%20stack/project-management-tech.png" alt="list of icons related to project management">
+                <img class="img-fluid border rounded-3" src="assets/tech-stack/project-management-tech.png" alt="list of icons related to project management. Contains Monday.com, Salesforce, Office 365, Google Suite, Adobe.">
             </div>
         </div>
     </div>
@@ -133,28 +130,30 @@
     
 <!--Project HighLights-->
 
-<section id="projectHighlights">
+<section id="project-highlights">
     <div class="container">
-        <h2>Project Highlights</h2>
-        <div class="container">
+        <h3>Project Highlights</h3>
+        <div class="container my-5">
             <div class="row gx-5">
-                <div id="StuckysStickers" class="col-lg-6">
-                    <h3 class="my-2">UX / UI Design Concept</h3>
-                    <div class="portfolio_item" id="stucky-item">
+                <div id="stuckys-stickers" class="col-lg-6">
+                    <h4 class="my-2">UX / UI Design Concept</h4>
+                    <div class="portfolio-item" id="stucky-item">
                         <a href="#stucky-lightbox">
-                            <img class="img-fluid border border-dark rounded-5 projectHighlight" src="./assets/project-highlights/stucky-collage.png" alt="collage of a website for stucky's stickers. Background is a grouping of stickers. Foreground is screenshots of the website making process from development to design"></a>
+                            <img class="img-fluid border border-dark rounded-5 my-4" src="./assets/project-highlights/stucky-collage.png" alt="collage of a website for stucky's stickers. Background is a grouping of stickers. Foreground is screenshots of the website making process from development to design"></a>
                     </div>
                     <div>
-                        <h4>Stucky's Stickers</h4>
+                        <h4 class="project-highlight-header">Stucky's Stickers</h4>
                         <p>Stucky's Stickers is a conceptual UX UI project focused on researching the use case for a local sticker production company with New Mexican's in mind. It encompassed UX UI principals in consumer research and LEAN production processes, brand identity development, low fidelity prototyping using Marvel, and high fidelity prototyping using Figma.</p>
-                        <p><strong>Collaborator:</strong><a href="https://www.linkedin.com/in/luke-thresher-graphics/"> Luke Thresher</a></p>
-                        <p><strong>Technologies Used:</strong> Adobe Illustrator, Adobe Lightroom, Google Business Suite, Roland Versaworks for sticker production, Marvel, and Figma. </p>
-                        <a href="https://marvelapp.com/prototype/18dfje94/screen/89643942">
-                            <button type="button" class="btn btn-light">Low Fidelity Prototype</button>
-                        </a>
-                        <a href="https://www.figma.com/proto/EQk6yE7VSWALa9tlnC1rru/Stucky's-Site?node-id=22%3A11&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=22%3A11">
-                            <button type="button" class="btn btn-light">High Fidelity Prototype</button>
-                        </a>
+                        <p>Collaborator: <a href="https://www.linkedin.com/in/luke-thresher-graphics/"> Luke Thresher</a></p>
+                        <p>Technologies Used: Adobe Illustrator, Adobe Lightroom, Google Business Suite, Roland Versaworks for sticker production, Marvel, and Figma. </p>
+                        <div class="my-4">
+                            <a href="https://marvelapp.com/prototype/18dfje94/screen/89643942">
+                                <button type="button" class="btn me-3">Low Fidelity Prototype</button>
+                            </a>
+                            <a href="https://www.figma.com/proto/EQk6yE7VSWALa9tlnC1rru/Stucky's-Site?node-id=22%3A11&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=22%3A11">
+                                <button type="button" class="btn">High Fidelity Prototype</button>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -175,9 +174,10 @@
 </section>
 
 <!--contact-->
-    <footer id="contact">
-        <div class="container text-center">
+    <footer class="my-3" id="contact">
+        <div class="container text-center my-3">
         <h2>Contact</h2>
+            <h5>JordynPalmaDesign@gmail.com</h5>
         </div>
         <div class="container" id="contactIcons">
             <div class="row justify-content-center">
