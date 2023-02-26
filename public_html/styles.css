@@ -57,14 +57,17 @@ p {
     font-size: 110%;
 }
 
+
+
 #resume-button{
     background-color: var(--lightBlue);
     color: var(--offWhite);
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: var(--fw-bold);
-    padding: 1rem;
+    padding: 1em;
     border-radius: 1em;
 }
+
 
 #resume-button:hover{
     background-color: var(--yellowish);
@@ -87,6 +90,15 @@ button:hover {
     background-color: var(--yellowish)!important;
 }
 
+
+#nav-bar-menu{
+    background-color: var(--offWhite)!important;
+}
+
+#nav-bar-menu:hover{
+    background-color: var(--yellowish)!important;
+}
+
 .nav-link{
     color: var(--offWhite);
     font-family: 'Roboto Condensed', sans-serif;
@@ -100,11 +112,6 @@ button:hover {
 
 #linked-in-logo{
     scale: 70%;
-}
-
-
-#resume-button{
-    scale: 120%
 }
 
 .project-highlight-header{
