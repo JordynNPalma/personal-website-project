@@ -45,7 +45,7 @@
                 <div class="col-lg-7" id="avatar-and-logo">
                     <div class="row">
                         <div class="col-2 align-self-end">
-                            <a href="https://www.linkedin.com/in/jordyn-n-palma"><img class="img-fluid" id="linked-in-logo" src="./assets/logos/linked-in-logo.svg" alt="linkedIn Logo"/></a>
+                            <a href="https://www.linkedin.com/in/jordyn-n-palma"><img class="img-fluid" id="linked-in-logo" src="./assets/logos/linked-in-logo.svg" alt="linkedIn Logo"></a>
                         </div>
                         <div class="col-10">
                             <img class="img-fluid" src="./assets/avatar-main-final.png" alt="illustrated avatar of Jordyn with the text hello">
@@ -99,9 +99,7 @@
             </div>
 <!--            download resume button-->
             <div class="d-flex justify-content-center">
-            <a href="./assets/jordyn-resume.pdf" download="jordyn-resume.pdf">
-                <button type="button" id="resume-button" class="btn">Download PDF Resume</button>
-            </a>
+                <a href="./assets/jordyn-resume.pdf" download="jordyn-resume.pdf" id="resume-button">Download PDF Resume</a>
             </div>
         </div>
     </div>
@@ -149,39 +147,28 @@
                         <p>Collaborator: <a href="https://www.linkedin.com/in/luke-thresher-graphics/"> Luke Thresher</a></p>
                         <p>Technologies Used: Adobe Illustrator, Adobe Lightroom, Google Business Suite, Roland Versaworks for sticker production, Marvel, and Figma. </p>
                         <div class="my-4">
-                            <a href="https://marvelapp.com/prototype/18dfje94/screen/89643942">
-                                <button type="button" class="btn me-3">Low Fidelity Prototype</button>
-                            </a>
-                            <a href="https://www.figma.com/proto/EQk6yE7VSWALa9tlnC1rru/Stucky's-Site?node-id=22%3A11&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=22%3A11">
-                                <button type="button" class="btn">High Fidelity Prototype</button>
-                            </a>
+                            <button type="button" class="btn" onclick="window.location.href='https://marvelapp.com/prototype/18dfje94/screen/89643942'">Low Fidelity Prototype</button>
+                            <button type="button" class="btn" onclick="window.location.href='https://www.figma.com/proto/EQk6yE7VSWALa9tlnC1rru/Stucky\'s-Site?node-id=22%3A11&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=22%3A11'">High Fidelity Prototype</button>
                         </div>
                     </div>
                 </div>
 
 <!--                desert moonshine-->
-                <div id="stuckys-stickers" class="col-lg-6">
+                <div id="moonshine-stickers" class="col-lg-6">
                     <h4 class="my-2">Logo Design</h4>
-                    <div class="portfolio-item" id="desert-item">
+                    <div class="portfolio-item" id="moonshine-item">
                         <a href="#desert-lightbox">
-                            <img class="img-fluid border border-dark rounded-5 my-4" src="./assets/project-highlights/" alt="collage of a website for stucky's stickers. Background is a grouping of stickers. Foreground is screenshots of the website making process from development to design"></a>
+                            <img class="img-fluid border border-dark rounded-5 my-4" src="./assets/project-highlights/desert-moonshine-collage-final.png" alt="collage of Desert Moonshine's logo in various formats. Logo is a crescent moons shape encompassing a desert scene with a saguaro cactus and a cow skull."></a>
                     </div>
                     <div>
-                        <h4 class="project-highlight-header">Stucky's Stickers</h4>
-                        <p>Stucky's Stickers is a conceptual UX UI project focused on researching the use case for a local sticker production company with New Mexican's in mind. It encompassed UX UI principals in consumer research and LEAN production processes, brand identity development, low fidelity prototyping using Marvel, and high fidelity prototyping using Figma.</p>
-                        <p>Collaborator: <a href="https://www.linkedin.com/in/luke-thresher-graphics/"> Luke Thresher</a></p>
-                        <p>Technologies Used: Adobe Illustrator, Adobe Lightroom, Google Business Suite, Roland Versaworks for sticker production, Marvel, and Figma. </p>
+                        <h4 class="project-highlight-header">Desert Moonshine Jewelry</h4>
+                        <p>Desert Moonshine Jewelry is owned by local bench jewelers, Shannon Sweet. In 2022 Desert Moonshine rebranded and reached out for a logo. Desert Moonshine's brand draws from nature’s geometry and symbolism, and 20 years of Fusion Belly Dance experience. They wanted a logo to represent that and reflect the style of jewelry created by Shannon. This project encompassed logo design and a simple style guide containing branding colors and typefaces.</p>
+                        <p>Technologies Used: Adobe Illustrator and Procreate. </p>
                         <div class="my-4">
-                            <a href="https://marvelapp.com/prototype/18dfje94/screen/89643942">
-                                <button type="button" class="btn me-3">Low Fidelity Prototype</button>
-                            </a>
-                            <a href="https://www.figma.com/proto/EQk6yE7VSWALa9tlnC1rru/Stucky's-Site?node-id=22%3A11&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=22%3A11">
-                                <button type="button" class="btn">High Fidelity Prototype</button>
-                            </a>
+                            <button type="button" class="btn" onclick="window.location.href='https://desertmoonshinejewelry.com/'">Desert Moonshine's Website</button>
                         </div>
                     </div>
                 </div>
-
 
             </div>
         </div>
@@ -194,6 +181,13 @@
             <div class="portfolio_content_lightbox">
                 <a href="#stucky-item" class="lightbox-close">X</a>
                 <img class=" img-fluid border border-0 rounded-5 projectHighlight" src="./assets/project-highlights/stucky-collage.png" alt="collage of a website for stucky's stickers. Background is a grouping of stickers. Foreground is screenshots of the website making process from development to design">
+            </div>
+        </div>
+<!--        desert moonshine lightbox-->
+        <div class="portfolio_lightbox" id="desert-lightbox">
+            <div class="portfolio_content_lightbox">
+                <a href="#moonshine-item" class="lightbox-close">X</a>
+                <img class=" img-fluid border border-0 rounded-5 projectHighlight" src="./assets/project-highlights/desert-moonshine-collage-final.png" alt="collage of Desert Moonshine's logo in various formats. Logo is a crescent moons shape encompassing a desert scene with a saguaro cactus and a cow skull.">
             </div>
         </div>
     </div>
@@ -209,7 +203,7 @@
         <div class="container" id="contactIcons">
             <div class="row justify-content-center">
                 <div class="col-6">
-                    <a href="https://www.linkedin.com/in/jordyn-n-palma"><img class="img-fluid LinkedIn" src="assets/logos/linked-in-logo.svg" alt="avatar placeholder icon"/></a>
+                    <a href="https://www.linkedin.com/in/jordyn-n-palma"><img class="img-fluid LinkedIn" src="assets/logos/linked-in-logo.svg" alt="avatar placeholder icon"></a>
                 </div>
                 <div class="col-6">
                     <a href="https://github.com/JordynNPalma"><img class="img-fluid" src="assets/logos/github-logo.svg" alt="github logo"></a>
